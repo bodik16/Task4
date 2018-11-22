@@ -5,3 +5,6 @@ C:\Users\Bogdan\Desktop\PofCIS_Team7-task4\Task4\Task4\obj\Debug\Task4.csprojAss
 C:\Users\Bogdan\Desktop\PofCIS_Team7-task4\Task4\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
 C:\Users\Bogdan\Desktop\PofCIS_Team7-task4\Task4\Task4\obj\Debug\Task4.exe
 C:\Users\Bogdan\Desktop\PofCIS_Team7-task4\Task4\Task4\obj\Debug\Task4.pdb
+C:\Users\Valentina\Desktop\Task4\Task4\Task4\Task4\bin\Debug\Task4.exe.config
+C:\Users\Valentina\Desktop\Task4\Task4\Task4\Task4\obj\Debug\Task4.exe
+C:\Users\Valentina\Desktop\Task4\Task4\Task4\Task4\obj\Debug\Task4.pdb

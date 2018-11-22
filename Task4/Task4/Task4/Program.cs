@@ -1,13 +1,13 @@
-﻿using System;
-using System.Configuration;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task4
+﻿namespace Task4
 {
+    using System;
+    using System.Configuration;
+    using System.Collections.Generic;
+    using System.Data.SqlClient;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     class Program
     {
         static void Main(string[] args)
@@ -24,6 +24,7 @@ namespace Task4
             {
                 Console.WriteLine("{0}\t{1}", reader["FirstName"], reader["LastName"]);
             }
+
             reader.Close();
 
             Console.WriteLine("\nCalculate the count of employees from London:");
@@ -51,6 +52,7 @@ namespace Task4
             {
                 Console.WriteLine(reader["ContactName"]);
             }
+
             reader.Close();
 
             Console.WriteLine("\nShow the list of french customers’ names who used to order french products");
@@ -60,6 +62,7 @@ namespace Task4
             {
                 Console.WriteLine(reader["ContactName"]);
             }
+
             reader.Close();
             
             Console.WriteLine("\nShow the total ordering sum calculated for each country of customer");
@@ -69,6 +72,7 @@ namespace Task4
             {
                 Console.WriteLine("{0,-10}{1}", reader["Country"], reader["TotalPrice"]);
             }
+
             reader.Close();
             Console.ReadKey();
         }
