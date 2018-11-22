@@ -1,4 +1,6 @@
-﻿namespace Task4
+﻿// <copyright file="Program.cs" company="CompanyName">
+// </copyright>
+namespace Task4
 {
     using System;
     using System.Collections.Generic;
@@ -8,6 +10,9 @@
     using System.Text;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents class Program
+    /// </summary>
     public class Program
     {
         static void Main(string[] args)
