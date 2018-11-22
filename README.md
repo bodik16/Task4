@@ -1,7 +1,7 @@
 # Task4
 Task 4 
 Grasshoppers team
-1 - Bogdan Shomko
-2 - Valentina Romanchuk
-3 - Kiral Lukyana
-4 - Berkela Volodymyr
+1 - Berkela Volodymyr
+2 - Kiral Lukyana
+3 - Valentyna Romanchuk
+4 - Shomko Bogdan
