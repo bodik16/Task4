@@ -1,4 +1,5 @@
 ﻿// <copyright file="Program.cs" company="CompanyName">
+// Company copyright tag.
 // </copyright>
 namespace Task4
 {
@@ -15,7 +16,7 @@ namespace Task4
     /// </summary>
     public class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["Task4.Properties.Settings.NorthwindConnectionString"].ConnectionString;
             SqlConnection connection = new SqlConnection(connectionString);

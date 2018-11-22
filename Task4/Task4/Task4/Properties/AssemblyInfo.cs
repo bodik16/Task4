@@ -1,4 +1,5 @@
 ﻿// <copyright file="AssemblyInfo.cs" company="CompanyName">
+// Company copyright tag.
 // </copyright>
 using System.Reflection;
 using System.Runtime.CompilerServices;
