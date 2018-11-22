@@ -26,7 +26,7 @@ namespace Task4
             }
             reader.Close();
 
-            Console.WriteLine("\nCalculate the count of employees from London");
+            Console.WriteLine("\nCalculate the count of employees from London:");
             command.CommandText = "SELECT COUNT(*) AS EmployeeQuantity FROM Employees WHERE City='London';";
             reader = command.ExecuteReader();
             while (reader.Read())
