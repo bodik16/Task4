@@ -1,14 +1,14 @@
 ﻿namespace Task4
 {
     using System;
-    using System.Configuration;
     using System.Collections.Generic;
+    using System.Configuration;
     using System.Data.SqlClient;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
 
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -28,12 +28,13 @@
             reader.Close();
 
             Console.WriteLine("\nCalculate the count of employees from London:");
-            command.CommandText = "SELECT COUNT(*) AS EmployeeQuantity FROM Employees WHERE City='London';"; //Query select
+            command.CommandText = "SELECT COUNT(*) AS EmployeeQuantity FROM Employees WHERE City='London';"; // Query select
             reader = command.ExecuteReader();
             while (reader.Read())
             {
                 Console.WriteLine(reader["EmployeeQuantity"]);
             }
+
             reader.Close();
 
             Console.WriteLine("\nShow first and last names of the employees as well as the count of orders each of them have received during the year 1997 (use left join)");
@@ -43,6 +44,7 @@
             {
                 Console.WriteLine("{0,-10}{1,-10}{2}", reader["FirstName"], reader["LastName"], reader["OrdersQuantity"]);
             }
+
             reader.Close();
 
             Console.WriteLine("\nShow the list of french customers’ names who have made more than one order (use grouping)");
